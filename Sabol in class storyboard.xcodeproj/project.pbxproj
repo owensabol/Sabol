@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		40DF8B4E23E099CF00B17842 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DF8B4D23E099CF00B17842 /* AppDelegate.swift */; };
+		40DF8B5023E099CF00B17842 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DF8B4F23E099CF00B17842 /* SceneDelegate.swift */; };
+		40DF8B5223E099CF00B17842 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DF8B5123E099CF00B17842 /* ViewController.swift */; };
+		40DF8B5523E099CF00B17842 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40DF8B5323E099CF00B17842 /* Main.storyboard */; };
+		40DF8B5723E099D000B17842 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40DF8B5623E099D000B17842 /* Assets.xcassets */; };
+		40DF8B5A23E099D000B17842 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40DF8B5823E099D000B17842 /* LaunchScreen.storyboard */; };
+		40DF8B6523E099D000B17842 /* Sabol_in_class_storyboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DF8B6423E099D000B17842 /* Sabol_in_class_storyboardTests.swift */; };
+		40DF8B7023E099D000B17842 /* Sabol_in_class_storyboardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DF8B6F23E099D000B17842 /* Sabol_in_class_storyboardUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		40DF8B6123E099D000B17842 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40DF8B4223E099CF00B17842 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40DF8B4923E099CF00B17842;
+			remoteInfo = "Sabol in class storyboard";
+		};
+		40DF8B6C23E099D000B17842 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40DF8B4223E099CF00B17842 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40DF8B4923E099CF00B17842;
+			remoteInfo = "Sabol in class storyboard";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		40DF8B4A23E099CF00B17842 /* Sabol in class storyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sabol in class storyboard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		40DF8B4D23E099CF00B17842 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		40DF8B4F23E099CF00B17842 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		40DF8B5123E099CF00B17842 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		40DF8B5423E099CF00B17842 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		40DF8B5623E099D000B17842 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		40DF8B5923E099D000B17842 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		40DF8B5B23E099D000B17842 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40DF8B6023E099D000B17842 /* Sabol in class storyboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sabol in class storyboardTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		40DF8B6423E099D000B17842 /* Sabol_in_class_storyboardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sabol_in_class_storyboardTests.swift; sourceTree = "<group>"; };
+		40DF8B6623E099D000B17842 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40DF8B6B23E099D000B17842 /* Sabol in class storyboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sabol in class storyboardUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		40DF8B6F23E099D000B17842 /* Sabol_in_class_storyboardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sabol_in_class_storyboardUITests.swift; sourceTree = "<group>"; };
+		40DF8B7123E099D000B17842 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		40DF8B4723E099CF00B17842 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40DF8B5D23E099D000B17842 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40DF8B6823E099D000B17842 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		40DF8B4123E099CF00B17842 = {
+			isa = PBXGroup;
+			children = (
+				40DF8B4C23E099CF00B17842 /* Sabol in class storyboard */,
+				40DF8B6323E099D000B17842 /* Sabol in class storyboardTests */,
+				40DF8B6E23E099D000B17842 /* Sabol in class storyboardUITests */,
+				40DF8B4B23E099CF00B17842 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		40DF8B4B23E099CF00B17842 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				40DF8B4A23E099CF00B17842 /* Sabol in class storyboard.app */,
+				40DF8B6023E099D000B17842 /* Sabol in class storyboardTests.xctest */,
+				40DF8B6B23E099D000B17842 /* Sabol in class storyboardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		40DF8B4C23E099CF00B17842 /* Sabol in class storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				40DF8B4D23E099CF00B17842 /* AppDelegate.swift */,
+				40DF8B4F23E099CF00B17842 /* SceneDelegate.swift */,
+				40DF8B5123E099CF00B17842 /* ViewController.swift */,
+				40DF8B5323E099CF00B17842 /* Main.storyboard */,
+				40DF8B5623E099D000B17842 /* Assets.xcassets */,
+				40DF8B5823E099D000B17842 /* LaunchScreen.storyboard */,
+				40DF8B5B23E099D000B17842 /* Info.plist */,
+			);
+			path = "Sabol in class storyboard";
+			sourceTree = "<group>";
+		};
+		40DF8B6323E099D000B17842 /* Sabol in class storyboardTests */ = {
+			isa = PBXGroup;
+			children = (
+				40DF8B6423E099D000B17842 /* Sabol_in_class_storyboardTests.swift */,
+				40DF8B6623E099D000B17842 /* Info.plist */,
+			);
+			path = "Sabol in class storyboardTests";
+			sourceTree = "<group>";
+		};
+		40DF8B6E23E099D000B17842 /* Sabol in class storyboardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				40DF8B6F23E099D000B17842 /* Sabol_in_class_storyboardUITests.swift */,
+				40DF8B7123E099D000B17842 /* Info.plist */,
+			);
+			path = "Sabol in class storyboardUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		40DF8B4923E099CF00B17842 /* Sabol in class storyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40DF8B7423E099D000B17842 /* Build configuration list for PBXNativeTarget "Sabol in class storyboard" */;
+			buildPhases = (
+				40DF8B4623E099CF00B17842 /* Sources */,
+				40DF8B4723E099CF00B17842 /* Frameworks */,
+				40DF8B4823E099CF00B17842 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sabol in class storyboard";
+			productName = "Sabol in class storyboard";
+			productReference = 40DF8B4A23E099CF00B17842 /* Sabol in class storyboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		40DF8B5F23E099D000B17842 /* Sabol in class storyboardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40DF8B7723E099D000B17842 /* Build configuration list for PBXNativeTarget "Sabol in class storyboardTests" */;
+			buildPhases = (
+				40DF8B5C23E099D000B17842 /* Sources */,
+				40DF8B5D23E099D000B17842 /* Frameworks */,
+				40DF8B5E23E099D000B17842 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40DF8B6223E099D000B17842 /* PBXTargetDependency */,
+			);
+			name = "Sabol in class storyboardTests";
+			productName = "Sabol in class storyboardTests";
+			productReference = 40DF8B6023E099D000B17842 /* Sabol in class storyboardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		40DF8B6A23E099D000B17842 /* Sabol in class storyboardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40DF8B7A23E099D000B17842 /* Build configuration list for PBXNativeTarget "Sabol in class storyboardUITests" */;
+			buildPhases = (
+				40DF8B6723E099D000B17842 /* Sources */,
+				40DF8B6823E099D000B17842 /* Frameworks */,
+				40DF8B6923E099D000B17842 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40DF8B6D23E099D000B17842 /* PBXTargetDependency */,
+			);
+			name = "Sabol in class storyboardUITests";
+			productName = "Sabol in class storyboardUITests";
+			productReference = 40DF8B6B23E099D000B17842 /* Sabol in class storyboardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		40DF8B4223E099CF00B17842 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Owen Sabol";
+				TargetAttributes = {
+					40DF8B4923E099CF00B17842 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					40DF8B5F23E099D000B17842 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 40DF8B4923E099CF00B17842;
+					};
+					40DF8B6A23E099D000B17842 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 40DF8B4923E099CF00B17842;
+					};
+				};
+			};
+			buildConfigurationList = 40DF8B4523E099CF00B17842 /* Build configuration list for PBXProject "Sabol in class storyboard" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 40DF8B4123E099CF00B17842;
+			productRefGroup = 40DF8B4B23E099CF00B17842 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				40DF8B4923E099CF00B17842 /* Sabol in class storyboard */,
+				40DF8B5F23E099D000B17842 /* Sabol in class storyboardTests */,
+				40DF8B6A23E099D000B17842 /* Sabol in class storyboardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		40DF8B4823E099CF00B17842 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40DF8B5A23E099D000B17842 /* LaunchScreen.storyboard in Resources */,
+				40DF8B5723E099D000B17842 /* Assets.xcassets in Resources */,
+				40DF8B5523E099CF00B17842 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40DF8B5E23E099D000B17842 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40DF8B6923E099D000B17842 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		40DF8B4623E099CF00B17842 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40DF8B5223E099CF00B17842 /* ViewController.swift in Sources */,
+				40DF8B4E23E099CF00B17842 /* AppDelegate.swift in Sources */,
+				40DF8B5023E099CF00B17842 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40DF8B5C23E099D000B17842 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40DF8B6523E099D000B17842 /* Sabol_in_class_storyboardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40DF8B6723E099D000B17842 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40DF8B7023E099D000B17842 /* Sabol_in_class_storyboardUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		40DF8B6223E099D000B17842 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40DF8B4923E099CF00B17842 /* Sabol in class storyboard */;
+			targetProxy = 40DF8B6123E099D000B17842 /* PBXContainerItemProxy */;
+		};
+		40DF8B6D23E099D000B17842 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40DF8B4923E099CF00B17842 /* Sabol in class storyboard */;
+			targetProxy = 40DF8B6C23E099D000B17842 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		40DF8B5323E099CF00B17842 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40DF8B5423E099CF00B17842 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		40DF8B5823E099D000B17842 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40DF8B5923E099D000B17842 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		40DF8B7223E099D000B17842 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		40DF8B7323E099D000B17842 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		40DF8B7523E099D000B17842 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Sabol in class storyboard/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "first-try.Sabol-in-class-storyboard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		40DF8B7623E099D000B17842 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Sabol in class storyboard/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "first-try.Sabol-in-class-storyboard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		40DF8B7823E099D000B17842 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Sabol in class storyboardTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "first-try.Sabol-in-class-storyboardTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sabol in class storyboard.app/Sabol in class storyboard";
+			};
+			name = Debug;
+		};
+		40DF8B7923E099D000B17842 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Sabol in class storyboardTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "first-try.Sabol-in-class-storyboardTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sabol in class storyboard.app/Sabol in class storyboard";
+			};
+			name = Release;
+		};
+		40DF8B7B23E099D000B17842 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Sabol in class storyboardUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "first-try.Sabol-in-class-storyboardUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Sabol in class storyboard";
+			};
+			name = Debug;
+		};
+		40DF8B7C23E099D000B17842 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Sabol in class storyboardUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "first-try.Sabol-in-class-storyboardUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Sabol in class storyboard";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		40DF8B4523E099CF00B17842 /* Build configuration list for PBXProject "Sabol in class storyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40DF8B7223E099D000B17842 /* Debug */,
+				40DF8B7323E099D000B17842 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40DF8B7423E099D000B17842 /* Build configuration list for PBXNativeTarget "Sabol in class storyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40DF8B7523E099D000B17842 /* Debug */,
+				40DF8B7623E099D000B17842 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40DF8B7723E099D000B17842 /* Build configuration list for PBXNativeTarget "Sabol in class storyboardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40DF8B7823E099D000B17842 /* Debug */,
+				40DF8B7923E099D000B17842 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40DF8B7A23E099D000B17842 /* Build configuration list for PBXNativeTarget "Sabol in class storyboardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40DF8B7B23E099D000B17842 /* Debug */,
+				40DF8B7C23E099D000B17842 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 40DF8B4223E099CF00B17842 /* Project object */;
+}
